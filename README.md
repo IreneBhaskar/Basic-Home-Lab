@@ -92,37 +92,37 @@ To  set up a home lab to safely investigate malware and learn new tools and tech
 <p align="center">Step 22: Build the malware with the chosen payload. check if the file exist with 'ls', and its type with 'file'</p>
 <p align="center"> <img src="images/imagestep22.png" height="80%" width="80%"/> </p>
 
-<p align="center">Step 23: description</p>
+<p align="center">Step 23: Open metasploit with msfconsole</p>
 <p align="center"> <img src="images/imagestep23.png" height="80%" width="80%"/> </p>
 
-<p align="center">Step 24: description</p>
+<p align="center">Step 24: Open a handler to listen in on the port recieving the malware</p>
 <p align="center"> <img src="images/imagestep24.png" height="80%" width="80%"/> </p>
 
-<p align="center">Step 25: description</p>
+<p align="center">Step 25: Change the payload option to that of the msfvenom</p>
 <p align="center"> <img src="images/imagestep25.png" height="80%" width="80%"/> </p>
 
-<p align="center">Step 26: description</p>
+<p align="center">Step 26: Set the lhost to the attacker's IP</p>
 <p align="center"> <img src="images/imagestep26.png" height="80%" width="80%"/> </p>
 
-<p align="center">Step 27: description</p>
+<p align="center">Step 27: Start the handler and wait for the target to execute the malware</p>
 <p align="center"> <img src="images/imagestep27.png" height="80%" width="80%"/> </p>
 
-<p align="center">Step 28: description</p>
+<p align="center">Step 28: Start a HTTP web server using Python on port 9999 so that the target can download the malware</p>
 <p align="center"> <img src="images/imagestep28.png" height="80%" width="80%"/> </p>
 
-<p align="center">Step 29: description</p>
+<p align="center">Step 29: Disable Windows Defender on the Windows VM</p>
 <p align="center"> <img src="images/imagestep29.png" height="80%" width="80%"/> </p>
 
-<p align="center">Step 30: description</p>
+<p align="center">Step 30: Visit the HTTP web server on the Windows VM and download the malware</p>
 <p align="center"> <img src="images/imagestep30.png" height="80%" width="80%"/> </p>
 
-<p align="center">Step 31: description</p>
+<p align="center">Step 31: Open a Command Prompt on Windows with Administer privileges and check the active connections with 'netstat -anob'</p>
 <p align="center"> <img src="images/imagestep31.png" height="80%" width="80%"/> </p>
 
-<p align="center">Step 32: description</p>
+<p align="center">Step 32: Check for an established connection from the Kali (attacking) machine on the Windows VM</p>
 <p align="center"> <img src="images/imagestep32.png" height="80%" width="80%"/> </p>
 
-<p align="center">Step 33: description</p>
+<p align="center">Step 33: Sorting the PID on Window's Task Manager will show that the malware is running</p>
 <p align="center"> <img src="images/imagestep33.png" height="80%" width="80%"/> </p>
 
 <p align="center">Step 34: description</p>
