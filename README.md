@@ -34,6 +34,7 @@ To set up a home lab and use it to safely create and investigate a basic malware
 
 <p align="center">Step 3: connect to the internet through NAT (reduce the risk of malware)</p>
 <p align="center"> <img src="images/imagestep3.png" height="80%" width="80%"/> </p>
+<p align="center">*NAT allows a VM to access the internet by sharing the host computer's network connection while keeping the VM hidden from the external network</p>
 
 <p align="center">Step 4: Install Sysmon</p>
 <p align="center"> <img src="images/imagestep4.png" height="80%" width="80%"/> </p>
@@ -61,6 +62,7 @@ To set up a home lab and use it to safely create and investigate a basic malware
 
 <p align="center">Step 12: Change the Network Adapter from NAT to Internal Network (reduce the risk of malware entering the host machine)</p>
 <p align="center"> <img src="images/imagestep12.png" height="80%" width="80%"/> </p>
+<p align="center">*Internal Network allows VMs to communicate with each other on a private virtual network (a 'fake internet') but prevents access to the host machine and the internet</p>
 
 <p align="center">Step 13: Change to Internal Network for both Virtual Machines</p>
 <p align="center"> <img src="images/imagestep13.png" height="80%" width="80%"/> </p>
