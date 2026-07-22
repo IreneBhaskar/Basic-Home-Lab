@@ -26,34 +26,34 @@ To  set up a home lab to safely investigate malware and learn new tools and tech
 
 ## Project Walkthrough
 
-<p align="center">Step 1: description</p>
+<p align="center">Step 1: Windows 10 VM setup</p>
 <p align="center"> <img src="images/imagestep1.png" height="80%" width="80%"/> </p>
 
-<p align="center">Step 2: description</p>
+<p align="center">Step 2: Kali VM setup</p>
 <p align="center"> <img src="images/imagestep2.png" height="80%" width="80%"/> </p>
 
-<p align="center">Step 3: description</p>
+<p align="center">Step 3: connect to the internet through NAT (reduce the risk of malware)</p>
 <p align="center"> <img src="images/imagestep3.png" height="80%" width="80%"/> </p>
 
-<p align="center">Step 4: description</p>
+<p align="center">Step 4: Install Sysmon</p>
 <p align="center"> <img src="images/imagestep4.png" height="80%" width="80%"/> </p>
 
-<p align="center">Step 5: description</p>
+<p align="center">Step 5: Restart Sysmon64 in Services to ensure it is working</p>
 <p align="center"> <img src="images/imagestep5.png" height="80%" width="80%"/> </p>
 
-<p align="center">Step 6: description</p>
+<p align="center">Step 6: Install Splunk</p>
 <p align="center"> <img src="images/imagestep6.png" height="80%" width="80%"/> </p>
 
-<p align="center">Step 7: description</p>
+<p align="center">Step 7: Create an account and log into it</p>
 <p align="center"> <img src="images/imagestep7.png" height="80%" width="80%"/> </p>
 
-<p align="center">Step 8: description</p>
+<p align="center">Step 8: Head to Search & Reporting to test out Splunk's functionality</p>
 <p align="center"> <img src="images/imagestep8.png" height="80%" width="80%"/> </p>
 
-<p align="center">Step 9: description</p>
+<p align="center">Step 9: Create an endpoint index in C:\Program Files\Splunk\etc\system\local\inputs.conf</p>
 <p align="center"> <img src="images/imagestep9.png" height="80%" width="80%"/> </p>
 
-<p align="center">Step 10: description</p>
+<p align="center">Step 10: Create an endpoint index on Splunk</p>
 <p align="center"> <img src="images/imagestep10.png" height="80%" width="80%"/> </p>
 
 <p align="center">Step 11: description</p>
