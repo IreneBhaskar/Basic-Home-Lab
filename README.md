@@ -166,4 +166,4 @@ As a bonus:
 2. Using Metasploit in this project shows one of many possibilities of what attackers can do or learn about a target system when a malicious file is downloaded. For example, process creations, as done so in this project, file changes and network connection, which can be read about in the options menu. This helps with building an understanding of the techniques attackers use, and hence, better defence.
 
 ## Conclusion
-XXX
+Building a home lab improved my understanding of how malware can be created, how a target system could be affected by malware and how SIEM tools can help detect threats, and hence, allow for a more effective response to threats.
