@@ -1,31 +1,30 @@
-<h1>Basic Home Lab</h1>
+# Basic Home Lab
 
-<h2>Purpose</h2>
-<p>To  set up a home lab to safely investigate malware and learn new tools and techniques</p>
+## Table of Contents
+- [Purpose](#purpose)
+- [Utilities Used](#utilities-used)
+- [Project Walkthrough](#project-walkthrough)
+- [Findings](#findings)
+- [Conclusion](#conclusion)
 
-<h2>Utilities Used</h2>
-<p>
+## Purpose
+To  set up a home lab to safely investigate malware and learn new tools and techniques</p>
+
+## Utilities Used
    
 **Windows 10 Virtual Machine** - the target machine to test malware on. This VM was run using Virtual Box, it provides a sandbox environment to prevent malware from affecting the host machine.
-<ul>
-   <li>Windows 10 was chosen since it is a popular operating system used by many.</li>
-</ul>
+- Windows 10 was chosen since it is a popular operating system used by many.
    
 **Kali Linux Virtual Machine** - the attacking machine which creates the malware. It was also ran using Virtual Box.
-<ul>
-   <li>Kali Linux was chosen since it comes with the Metasploit Framework preinstalled.</li>
-   <li>The Metasploit Framework is a tool used to perform authorised penetration tests to understand and improve system security.</li>
-</ul>
+- Kali Linux was chosen since it comes with the Metasploit Framework preinstalled.
+- The Metasploit Framework is a tool used to perform authorised penetration tests to understand and improve system security.
 
-**Sysmon** - a Windows tool used to record system activity (such as process creation, network connections and file changes). This is to investigate the activity of the attacking machine on the target machine.
+**Sysmon** - a Windows tool used to record system activity. This is to investigate the activity of the attacking machine on the target machine.
 
 **Splunk** - a SIEM tool used to analyse data and monitor system security. It will recieve the events collected by Sysmon to be indexed and analysed.
-<ul>
-   <li>Additionally, Splunk also has dashboards and alerts to quickly identify threats.</li>
-</ul>
-</p>
+- Additionally, Splunk also has dashboards and alerts to quickly identify threats.
 
-<h2>Project Walk-Through</h2>
+<h2>Project Walkthrough</h2>
 
 <p align="center">
 Step 1: description<br/>
