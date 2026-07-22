@@ -24,57 +24,16 @@ To  set up a home lab to safely investigate malware and learn new tools and tech
 **Splunk** - a SIEM tool used to analyse data and monitor system security. It will recieve the events collected by Sysmon to be indexed and analysed.
 - Additionally, Splunk also has dashboards and alerts to quickly identify threats.
 
-<h2>Project Walkthrough</h2>
+## Project Walkthrough
 
-<p align="center">
-Step 1: description<br/>
-<img src="images\imagestep1.png" height="80%" width="80%" alt="image description"/>
-<br />
-<br />
-Step 2: description<br/>
-<img src="images\imagestep2.png" height="80%" width="80%" alt="image description"/>
-<br />
-<br />
-Step 3: description<br/>
-<img src="images\imagestep3.png" height="80%" width="80%" alt="image description"/>
-<br />
-<br />
-Step 4: description<br/>
-<img src="images\imagestep4.png" height="80%" width="80%" alt="image description"/>
-<br />
-<br />
-Step 5: description<br/>
-<img src="images\imagestep5.png" height="80%" width="80%" alt="image description"/>
-<br />
-<br />
-Step 6: description<br/>
-<img src="images\imagestep6.png" height="80%" width="80%" alt="image description"/>
-<br />
-<br />
-Step 7: description<br/>
-<img src="images\imagestep7.png" height="80%" width="80%" alt="image description"/>
-<br />
-<br />
-Step 8: description<br/>
-<img src="images\imagestep8.png" height="80%" width="80%" alt="image description"/>
-<br />
-</p>
+<p align="center"> Step 1: description </p>
+<p align="center"> <img src="images\imagestep1.png" height="80%" width="80%"/> </p>
 
-<h2>Findings</h2>
-<p>
+<p align="center"> Step 2: description</p>
+<p align="center"> <img src="images\imagestep2.png" height="80%" width="80%"/> </p>
+
+## Findings
 XXX
-</p>
 
-<h2>Conclusion</h2>
-<p>
+## Conclusion
 XXX
-</p>
-
-<!--
- ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
