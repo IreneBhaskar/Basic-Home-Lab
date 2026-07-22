@@ -8,7 +8,9 @@
 - [Conclusion](#conclusion)
 
 ## Purpose
-To set up a home lab and use it to safely create and investigate a basic malware and learn how to use the Splunk SIEM tool.
+To set up a Home Lab and use it to:
+- Safely create and investigate a basic malware
+- Learn how to use the Splunk SIEM tool.
 
 ## Utilities Used
    
