@@ -156,7 +156,14 @@ To set up a home lab and use it to safely create and investigate a basic malware
 <p align="center"> <img src="images/imagestep43.png" height="80%" width="80%"/> </p>
 
 ## Findings
-XXX
+A home lab provides a sandbox enviroment that is able to safely test malware without risking severe damage to the host machine. This is because virtual machines can be easily reverted to a previous state or be deleted without losing important documents if things ever go wrong.
+- Additionally, this project also shows that by changing Network Adapter to NAT (Network Address Translation), or better, Internal Network, the virtual machine significanly reduces the risk of affecting the host machine, making it ideal for learning and practising cybersecurity skills.
+
+As a bonus:
+1. This home lab project also shows the usefulness of SIEM tools, in this case, Splunk. Splunk helped with collecting, indexing and analysing logs which makes it much easier to detect suspicious behavior on a system. Or, when malicious activity is found, Splunk is helpful in investigating activities of the attacker.
+   - by installing a Sysmon (System Monitor) add-on, Splunk gains much more useful fields and logs. The detailed security events Sysmon records can even allow Splunk to analyse an attacker's activity step-by-step.
+
+2. Using Metasploit in this project shows one of many possibilities of what attackers can do or learn about a target system when a malicious file is downloaded. For example, process creations, as done so in this project, file changes and network connection, which can be read about in the options menu. This helps with building an understanding of the techniques attackers use, and hence, better defence.
 
 ## Conclusion
 XXX
