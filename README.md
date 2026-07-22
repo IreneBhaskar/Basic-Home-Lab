@@ -1,4 +1,4 @@
-# Basic Home Lab
+# Basic Home Lab (w/ Sysmon, Splunk)
 
 ## Table of Contents
 - [Purpose](#purpose)
