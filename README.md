@@ -125,34 +125,34 @@ To  set up a home lab to safely investigate malware and learn new tools and tech
 <p align="center">Step 33: Sorting the PID on Window's Task Manager will show that the malware is running</p>
 <p align="center"> <img src="images/imagestep33.png" height="80%" width="80%"/> </p>
 
-<p align="center">Step 34: description</p>
+<p align="center">Step 34: Since the malware has been executed on the target machine, the handler on the Kali VM will show a connection</p>
 <p align="center"> <img src="images/imagestep34.png" height="80%" width="80%"/> </p>
 
-<p align="center">Step 35: description</p>
+<p align="center">Step 35: A connection can also be seen with the incomming HTTP requests on the web server</p>
 <p align="center"> <img src="images/imagestep35.png" height="80%" width="80%"/> </p>
 
-<p align="center">Step 36: description</p>
+<p align="center">Step 36: Generate telemetry on the target machine: "shell"</p>
 <p align="center"> <img src="images/imagestep36.png" height="80%" width="80%"/> </p>
 
-<p align="center">Step 37: description</p>
+<p align="center">Step 37: Generate telemetry on the target machine: "net user"</p>
 <p align="center"> <img src="images/imagestep37.png" height="80%" width="80%"/> </p>
 
-<p align="center">Step 38: description</p>
+<p align="center">Step 38: Generate telemetry on the target machine: "net localgroup"</p>
 <p align="center"> <img src="images/imagestep38.png" height="80%" width="80%"/> </p>
 
-<p align="center">Step 39: description</p>
+<p align="center">Step 39: Generate telemetry on the target machine: "ipconfig"</p>
 <p align="center"> <img src="images/imagestep39.png" height="80%" width="80%"/> </p>
 
-<p align="center">Step 40: description</p>
+<p align="center">Step 40: Query the attacking IP on Splunk</p>
 <p align="center"> <img src="images/imagestep40.png" height="80%" width="80%"/> </p>
 
-<p align="center">Step 41: description</p>
+<p align="center">Step 41: Select any value in EventCode and click it</p>
 <p align="center"> <img src="images/imagestep41.png" height="80%" width="80%"/> </p>
 
-<p align="center">Step 42: description</p>
+<p align="center">Step 42: Copy and add its process_guid to the query</p>
 <p align="center"> <img src="images/imagestep42.png" height="80%" width="80%"/> </p>
 
-<p align="center">Step 43: description</p>
+<p align="center">Step 43: Filter the results with 'table' for simpler results. Notice that in the CommandLine column, every activity performed by the attacker can be seen</p>
 <p align="center"> <img src="images/imagestep43.png" height="80%" width="80%"/> </p>
 
 ## Findings
