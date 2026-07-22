@@ -8,7 +8,7 @@
 - [Conclusion](#conclusion)
 
 ## Purpose
-To  set up a home lab to safely investigate malware and learn new tools and techniques</p>
+To  set up a home lab to safely investigate malware and learn new tools and techniques
 
 ## Utilities Used
    
