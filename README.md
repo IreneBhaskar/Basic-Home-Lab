@@ -157,6 +157,8 @@ To set up a home lab and use it to safely create and investigate a basic malware
 <p align="center">Step 43: Filter the results with 'table' for simpler results. Notice that in the CommandLine column, every activity performed by the attacker can be seen</p>
 <p align="center"> <img src="images/imagestep43.png" height="80%" width="80%"/> </p>
 
+*This project was inspired by MyDFIR's Youtube series on building a Basic Home Lab
+
 ## Findings
 A home lab provides a sandbox enviroment that is able to safely test malware without risking severe damage to the host machine. This is because virtual machines can be easily reverted to a previous state or be deleted without losing important documents if things ever go wrong.
 - Additionally, this project also shows that by changing Network Adapter to NAT (Network Address Translation), or better, Internal Network, the virtual machine significanly reduces the risk of affecting the host machine, making it ideal for learning and practising cybersecurity skills.
