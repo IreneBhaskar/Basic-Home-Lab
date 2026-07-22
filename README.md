@@ -56,40 +56,40 @@ To  set up a home lab to safely investigate malware and learn new tools and tech
 <p align="center">Step 10: Create an endpoint index on Splunk</p>
 <p align="center"> <img src="images/imagestep10.png" height="80%" width="80%"/> </p>
 
-<p align="center">Step 11: description</p>
+<p align="center">Step 11: Install the Splunk Add-On for Sysmon</p>
 <p align="center"> <img src="images/imagestep11.png" height="80%" width="80%"/> </p>
 
-<p align="center">Step 12: description</p>
+<p align="center">Step 12: Change the Network Adapter from NAT to Internal Network (reduce the risk of malware entering the host machine)</p>
 <p align="center"> <img src="images/imagestep12.png" height="80%" width="80%"/> </p>
 
-<p align="center">Step 13: description</p>
+<p align="center">Step 13: Change to Internal Network for both Virtual Machines</p>
 <p align="center"> <img src="images/imagestep13.png" height="80%" width="80%"/> </p>
 
-<p align="center">Step 14: description</p>
+<p align="center">Step 14: Statically assign an IP for the Windows 10 VM</p>
 <p align="center"> <img src="images/imagestep14.png" height="80%" width="80%"/> </p>
 
-<p align="center">Step 15: description</p>
+<p align="center">Step 15: Check if the IP is assigned in Windows Command Prompt with ipconfig</p>
 <p align="center"> <img src="images/imagestep15.png" height="80%" width="80%"/> </p>
 
-<p align="center">Step 16: description</p>
+<p align="center">Step 16: Statically assign an IP for the Kali Linux VM</p>
 <p align="center"> <img src="images/imagestep16.png" height="80%" width="80%"/> </p>
 
-<p align="center">Step 17: description</p>
+<p align="center">Step 17: Check if the IP is assigned in Linux terminal with ifconfig</p>
 <p align="center"> <img src="images/imagestep17.png" height="80%" width="80%"/> </p>
 
-<p align="center">Step 18: description</p>
+<p align="center">Step 18: Ping the Windows IP in the Kali VM to check the connectivity</p>
 <p align="center"> <img src="images/imagestep18.png" height="80%" width="80%"/> </p>
 
-<p align="center">Step 19: description</p>
+<p align="center">Step 19: Ping the Kali IP in the Windows VM to check the connectivity</p>
 <p align="center"> <img src="images/imagestep19.png" height="80%" width="80%"/> </p>
 
-<p align="center">Step 20: description</p>
+<p align="center">Step 20: Use nmap to scan and identify any open ports</p>
 <p align="center"> <img src="images/imagestep20.png" height="80%" width="80%"/> </p>
 
-<p align="center">Step 21: description</p>
+<p align="center">Step 21: Choose a payload within msfvenom</p>
 <p align="center"> <img src="images/imagestep21.png" height="80%" width="80%"/> </p>
 
-<p align="center">Step 22: description</p>
+<p align="center">Step 22: Build the malware with the chosen payload. check if the file exist with 'ls', and its type with 'file'</p>
 <p align="center"> <img src="images/imagestep22.png" height="80%" width="80%"/> </p>
 
 <p align="center">Step 23: description</p>
